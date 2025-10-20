@@ -1,0 +1,51 @@
+body {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logo {
+    position: relative;
+    left: 60px;
+    top: 10px;
+
+}
+.option{
+    padding: 30px;
+}
+.btn , .pro-btn{
+    margin-right: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+.searchBar {
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+.Profile {
+    padding-top: 30px;
+padding-right: 20px;
+}
+.middle {
+    background-color: rgb(246,246,241);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    justify-content: center;
+}
+.card{
+    background-color:whitesmoke;
+    
+}
+button{
+    height: 50px; 
+    background-color: bisque;
+}
