@@ -43,14 +43,14 @@ const newElement= <>
 function greet(){
   return <h1>hello</h1>
 };
-function meet(){
+function Meet(){
   return <h2>how are you</h2>
 }
 const newElement2=greet();
-const newElement3=meet();
+const newElement3=<Meet/>;
 const newElement4= <>
 {greet()}
-{meet()} 
+{Meet()} 
 </>
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(newElement4);
+root.render();
